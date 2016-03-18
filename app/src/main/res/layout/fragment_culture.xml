@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ufl_purple"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:text="culture" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Alpha_Delta_Pi"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/adp"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Alpha Delta Pi" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Alpha_Epsilon_Pi"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/aep"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Alpha Epsilon Pi" />
+
+
+
+        <Button
+            android:id="@+id/Alpha_Theta_Omega"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/ato"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Alpha Theta Omega" />
+
+
+    </LinearLayout><LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:orientation="horizontal" >
+
+
+    <Button
+        android:id="@+id/Chi_Omega"
+        android:onClick="clickedCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/xo"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:text="Chi Omega" />
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">GatorEvents</string>
+    <string name="home_name">Welcome Gator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example"></string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Search strings-->
+    <string name="search_hint">Search for events/categories</string>
+    <string name="action_search">Search</string>
+    
+    <string name="title_activity_category">CategoryActivity</string>
+
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="title_activity_events_detail">EventsDetailActivity</string>
+
+
+
+</resources>

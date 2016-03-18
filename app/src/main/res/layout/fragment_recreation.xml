@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ufl_purple"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:text="recreation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal" >
+
+
+
+        <Button
+            android:visibility="invisible"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/football"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Football" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal" >
+
+
+
+        <Button
+            android:id="@+id/Gator_Night"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/gn"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Gator Night" />
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:orientation="horizontal" >
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>

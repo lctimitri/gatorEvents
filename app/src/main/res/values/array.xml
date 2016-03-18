@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="activityTitles">
+        <item>Home</item>
+        <item>Categories</item>
+        <!--<item></item>-->
+        <item>My Events</item>
+        <!--<item></item>-->
+        <item>Calendar</item>
+        <!--<item>Profile</item>-->
+    </string-array>
+</resources>

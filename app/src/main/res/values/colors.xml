@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ufl_purple">#4221A6</color>
+    <color name="ufl_purple_light">#9575cd</color>
+    <color name="ufl_orange">#FFB74D</color>
+    <color name="ufl_orange_dark">#E68800</color>
+</resources>

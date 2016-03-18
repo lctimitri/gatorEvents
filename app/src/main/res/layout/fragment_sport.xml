@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ufl_purple"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:textAllCaps="true"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:text="sports" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Football"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/football"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Football" />
+
+        <Button
+            android:id="@+id/Basketball"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/basketball"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Basketball" />
+
+        <Button
+            android:id="@+id/Baseball"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/baseball"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Baseball" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/Volleyball"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/volleyball"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Volleyball" />
+
+        <Button
+            android:id="@+id/Soccer"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/soccer"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Soccer" />
+
+        <Button
+            android:id="@+id/Lacrosse"
+            android:onClick="clickedCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:background="@android:color/transparent"
+            android:drawableTop="@drawable/lacrosse"
+            android:textColor="#FFF"
+            android:textAllCaps="false"
+            android:text="Lacrosse" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/Golf"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/golf"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:text="Golf" />
+
+    <Button
+        android:id="@+id/SwimmingDiving"
+        android:onClick="clickedCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/sd"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:text="Swimming &amp; Diving " />
+
+    <Button
+        android:id="@+id/Tennis"
+        android:onClick="clickedCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="16dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/tennis"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:text="Tennis" />
+
+
+</LinearLayout>
+
+</LinearLayout>
